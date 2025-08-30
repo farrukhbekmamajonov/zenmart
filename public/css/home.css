@@ -317,8 +317,8 @@
 
 .header_frame .container .header_left {
   padding-left: 20px;
-  width: 721.2px;
-  height: 408px;
+  width: 857.2px;
+  height: 448px;
   border-radius: 5px;
   position: relative;
 
@@ -411,8 +411,8 @@
 
 .header_frame .header_right .header_box {
   width: 422px;
-  height: 194px;
-  margin-left: 20px;
+  height: 210px;
+  margin-left: 30px;
   box-sizing: border-box;
   border-radius: 5px;
 
