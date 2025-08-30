@@ -5,6 +5,8 @@
   display: flex;
 }
 
+/*navbar_frame*/
+
 .navbar_frame {
   position: relative;
   width: 100%;
@@ -288,10 +290,15 @@
   letter-spacing: 0%;
 }
 
+/*navbar_frame end*/
+
+/*home page start*/
+
 .home_page {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  padding-bottom: 20px;
 }
 
 .header_frame {
@@ -308,22 +315,23 @@
   flex-direction: row;
 }
 
-.container .header_left {
+.header_frame .container .header_left {
   padding-left: 20px;
   width: 721.2px;
   height: 408px;
+  border-radius: 5px;
   position: relative;
 
   background-color: rgba(0, 83, 246, 1);
 }
 
-.header_left .header_content {
+.header_frame .header_left .header_content {
   margin-top: 90px;
   display: flex;
   flex-direction: column;
 }
 
-.header_content div {
+.header_frame .header_content div {
   color: rgba(4, 30, 66, 1);
 
   font-family: Jost;
@@ -342,7 +350,7 @@
   background: rgba(245, 195, 75, 1);
 }
 
-.header_content span {
+.header_frame .header_content span {
   margin-top: 20px;
 
   width: 328px;
@@ -357,7 +365,7 @@
   text-align: left;
 }
 
-.header_content p {
+.header_frame .header_content p {
   margin-top: 40px;
   font-family: "Jost";
   font-style: normal;
@@ -367,7 +375,7 @@
   color: #ffffff;
 }
 
-.header_content a {
+.header_frame .header_content a {
   margin-top: 20px;
   width: 140px;
   height: 52px;
@@ -385,7 +393,7 @@
   background: rgba(255, 255, 255, 1);
 }
 
-.header_content img {
+.header_frame .header_content img {
   position: absolute;
 
   width: 419.51px;
@@ -393,7 +401,7 @@
   right: 20px;
 }
 
-.container .header_right {
+.header_frame .container .header_right {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -401,7 +409,7 @@
   box-sizing: border-box;
 }
 
-.header_right .header_box {
+.header_frame .header_right .header_box {
   width: 422px;
   height: 194px;
   margin-left: 20px;
@@ -413,7 +421,7 @@
   background: #f2f2f2;
 }
 
-.header_right .box_left {
+.header_frame .header_right .box_left {
   position: relative;
   margin-left: 30px;
   width: 50%;
@@ -424,7 +432,7 @@
   justify-content: center;
 }
 
-.box_left span {
+.header_frame .box_left span {
   color: rgba(0, 83, 246, 1);
   margin: 10px 0px;
   font-family: Jost;
@@ -436,7 +444,7 @@
   box-sizing: border-box;
 }
 
-.box_left p {
+.header_frame .box_left p {
   color: rgba(4, 30, 66, 1);
 
   font-family: Jost;
@@ -449,7 +457,7 @@
   text-align: left;
 }
 
-.box_left a {
+.header_frame .box_left a {
   margin-top: 10px;
   width: 122.3px;
   height: 27px;
@@ -464,7 +472,7 @@
   box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
 }
 
-.hover_border {
+.header_frame .hover_border {
   margin-top: 1px;
   width: 32px;
   height: 2px;
@@ -472,7 +480,7 @@
   background: #041e42;
 }
 
-.box_right img {
+.header_frame .box_right img {
   position: absolute;
 
   width: 216px;
@@ -482,7 +490,7 @@
   left: 170px;
 }
 
-.box_right_image img {
+.header_frame .box_right_image img {
   position: absolute;
 
   width: 216px;
@@ -490,4 +498,60 @@
   box-sizing: border-box;
   top: 0px;
   left: 170px;
+}
+
+/*SERVICE*/
+
+.home_page .service_frame {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.service_frame .container {
+  flex-direction: row;
+}
+
+.service_frame .container .servise_box {
+  width: 25%;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+
+.service_frame .servise_box img {
+  width: 35px;
+  height: 35px;
+}
+
+.service_frame .servise_box .service_content {
+  margin-left: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.service_frame .servise_box .service_content span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.service_frame .servise_box .service_content p {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
 }
