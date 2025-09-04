@@ -1293,7 +1293,7 @@
 .event_product_boxes .event_product_box {
   margin-right: 8px;
   width: 260px;
-  height: 402px;
+  height: 412px;
   border-radius: 16px;
   padding-left: 8px;
   background-color: #ffffff;
@@ -1306,7 +1306,7 @@
 
 .event_product_box .event_product_image {
   width: 100%;
-  height: 220px;
+  height: 240px;
 
   display: flex;
   align-items: center;
