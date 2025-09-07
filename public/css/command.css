@@ -613,3 +613,37 @@ p {
   letter-spacing: 0%;
   text-align: left;
 }
+.page_router {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 1320px;
+}
+
+.page_router .container {
+  margin-left: 40px;
+}
+
+.page_router span {
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  color: #041e42;
+}
+
+.page_router span.drop {
+  margin: 0px 20px;
+}
+
+.page_router span.active {
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+
+  color: #5c6168;
+}
