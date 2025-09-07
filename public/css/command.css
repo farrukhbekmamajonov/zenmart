@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -79,7 +83,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -96,7 +100,7 @@ p {
 
   color: rgba(98, 105, 116, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -179,7 +183,7 @@ p {
   color: rgba(255, 255, 255, 1);
   margin-left: 15px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -191,7 +195,7 @@ p {
   color: rgba(255, 255, 255, 1);
   margin-left: 15px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 600;
   line-height: 22px;
@@ -265,7 +269,7 @@ p {
 
   color: rgba(255, 255, 255, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -287,7 +291,7 @@ p {
   margin-left: 20px;
   color: rgba(255, 255, 255, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -331,7 +335,7 @@ p {
 .contact_us_box .footer_space_title {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 500;
   line-height: 100%;
@@ -362,7 +366,7 @@ p {
   height: 22px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 8px;
@@ -394,7 +398,7 @@ p {
   height: 22px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 500;
   line-height: 8px;
@@ -413,7 +417,7 @@ p {
   text-decoration: none;
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 500;
   line-height: 100%;
@@ -428,7 +432,7 @@ p {
 .footer_support_box .support_box_contact a {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -469,7 +473,7 @@ p {
 .footer_media_main .footer_space_title {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 500;
   line-height: 100%;
@@ -494,7 +498,7 @@ p {
 .footer_media_main .mobile_apps_box span {
   color: rgba(4, 30, 66, 1);
   margin-left: 20px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0%;
@@ -547,7 +551,7 @@ p {
 .footer_main .footer_bottom_left span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
@@ -581,7 +585,7 @@ p {
 }
 
 .footer_bottom_right .footer_select_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -602,7 +606,7 @@ p {
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
 
