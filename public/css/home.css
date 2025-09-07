@@ -723,109 +723,11 @@
   text-align: left;
 }
 
-.shop_category_frame {
-  position: relative;
-  width: 100%;
-  height: 300px;
-
-  display: flex;
-  justify-content: center;
-}
-.shop_category_frame .container {
-  flex-direction: column;
-  width: 1320px;
-  height: auto;
-}
-
-.shop_category_frame .category_top {
-  width: 100%;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.shop_category_frame .category_top span {
-  color: rgba(4, 30, 66, 1);
-
-  font-family: var(--font);
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: left;
-}
-
-.shop_category_frame .category_top a {
-  width: 150px;
-  height: 27px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: undefined;
-  text-decoration: none;
-
-  font-size: 16px;
-  font-family: var(--font);
-  font-weight: 500;
-  font-style: normal;
-}
-
-.shop_category_frame .category_top .category_top_line {
-  width: 30px;
-  height: 2px;
-  background: rgba(4, 30, 66, 1);
-}
-
-/*SERVICE end*/
-
-/*category_vrapper*/
-
-.shop_category_frame .container .category_vrapper {
-  margin-top: 30px;
-  width: 100%;
-  height: auto;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-}
-
-.shop_category_frame .container .category_vrapper .category_box {
-  width: 142px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.shop_category_frame .category_box .category_image_box {
-  width: 100%;
-  height: 150px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border: 1px solid rgba(255, 255, 255, 1);
-}
-
-.shop_category_frame .container .category_vrapper .category_box span {
-  font-size: 15px;
-  font-weight: 600;
-  width: 133.49px;
-  height: 67.42px;
-  text-align: center;
-  margin-top: 20px;
-  line-height: 25px;
-}
-
 /*selling_product*/
 
 .silling_product_frame {
   position: relative;
+
   margin-top: 60px;
   width: 100%;
   height: auto;
