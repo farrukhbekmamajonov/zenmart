@@ -1,0 +1,21 @@
+<svg viewBox="0 0 169.836 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169.835571" height="24.000000" fill="none" customFrame="#000000">
+	<rect id="Arrow-Bullet" width="169.835602" height="24.000002" x="-0.000122" y="0.000000" />
+	<g id="bullets">
+		<ellipse id="Ellipse 54" rx="1.887062" ry="2.000000" cx="43.4023209" cy="12" fill="rgb(17,33,55)" />
+		<ellipse id="Ellipse 55" rx="1.887064" ry="2.000000" cx="64.1600113" cy="12" fill="rgb(17,33,55)" />
+		<ellipse id="Ellipse 59" rx="8.435310" ry="9.000000" cx="84.9177322" cy="12" stroke="rgb(17,33,55)" stroke-width="2" />
+		<ellipse id="Ellipse 56" rx="1.887062" ry="2.000000" cx="84.9177017" cy="12" fill="rgb(17,33,55)" />
+		<ellipse id="Ellipse 57" rx="1.887062" ry="2.000000" cx="105.675392" cy="12" fill="rgb(17,33,55)" />
+		<ellipse id="Ellipse 58" rx="1.887066" ry="2.000000" cx="126.43309" cy="12" fill="rgb(17,33,55)" />
+	</g>
+	<g id="arrow-right">
+		<path id="Vector" d="M160.806 5.92969L166.533 11.9997L160.806 18.0697" fill-rule="nonzero" stroke="rgb(17,33,55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+		<path id="Vector" d="M150.493 12L166.373 12" stroke="rgb(17,33,55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+		<path id="Vector" d="M22.6447 0L0 0L0 24L22.6447 24L22.6447 0ZM1 23L1 1L21.6447 1L21.6447 23L1 23Z" opacity="0" fill="rgb(17,33,55)" fill-rule="evenodd" transform="matrix(-1,-1.29794e-16,1.15549e-16,-1,169.835,24)" />
+	</g>
+	<g id="arrow-right">
+		<path id="Vector" d="M0 0L5.72723 6.07L0 12.14" fill-rule="nonzero" stroke="rgb(17,33,55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="matrix(-1,-9.82002e-08,7.78282e-08,-1,9.02942,18.0703)" />
+		<path id="Vector" d="M0 0L15.8796 0" stroke="rgb(17,33,55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="matrix(-1,-9.82001e-08,7.78282e-08,-1,19.3423,12)" />
+		<path id="Vector" d="M22.6446 0L-0.00012207 0L-0.00012207 24L22.6446 24L22.6446 0ZM0.999878 23L0.999878 1L21.6446 1L21.6446 23L0.999878 23Z" opacity="0" fill="rgb(17,33,55)" fill-rule="evenodd" />
+	</g>
+</svg>
