@@ -345,3 +345,62 @@
 .container .product_content_box .price_box del {
   opacity: 0.5;
 }
+
+.top_products_top_paragraph {
+  display: flex;
+  flex-direction: column;
+}
+
+.spec_title_paragraph {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.top_products_top_paragraph p {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.product_pagination_selectors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 290.76px;
+  height: 36px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.product_pagination_selectors .product_pagination_select {
+  width: 90px;
+  height: 36px;
+  border-radius: 16px;
+  padding: 0px 10px;
+}
+
+.product_pagination_selectors .product_pagination_select:hover {
+  background-color: rgba(68, 50, 151, 1);
+  cursor: pointer;
+  color: white;
+}
+
+.product_pagination_selectors .product_pagination_select.active {
+  background-color: rgba(68, 50, 151, 1);
+  cursor: pointer;
+  color: white;
+}
