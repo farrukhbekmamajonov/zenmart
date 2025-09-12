@@ -404,3 +404,17 @@
   cursor: pointer;
   color: white;
 }
+
+.pagination_main_prex_next_box {
+  width: 300px;
+  height: 60px;
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_main_prex_next_box .pagionation_dot {
+  flex-direction: row;
+}

@@ -20,6 +20,11 @@
     />
     <link rel="stylesheet" href="../public/css/command.css" />
     <link rel="stylesheet" href="../public/css/product_all.css" />
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
     
   </head>
   <body>
@@ -1227,6 +1232,19 @@
             </div>
           </div>
         </div>
+
+         <div class="pagination_main_prex_next_box">
+              <img
+                src="./public/images/header_category_images/Vector(1).png"
+                alt="Logo"
+              />
+            
+              <img class="swiper-button-next"
+                src="./public/images/header_category_images/Vector(1).png"
+                alt="Logo"
+                style="transform: scaleX(-1)"
+              />
+            </div>
       </div>
       </div>
     </div>
@@ -1356,5 +1374,24 @@
         </div>
       </div>
     </div>
-  </body>
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+</body>
 </html>
